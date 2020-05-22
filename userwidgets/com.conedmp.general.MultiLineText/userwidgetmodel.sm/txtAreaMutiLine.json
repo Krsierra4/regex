@@ -1,0 +1,87 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextArea2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "100dp"
+    },
+    "_margin_": [
+        2,
+        2,
+        2,
+        2
+    ],
+    "_padding_": [
+        2,
+        2,
+        2,
+        2
+    ],
+    "_placeholder_": "Faults Found",
+    "_skin_": "s52bbc8058ee4fd799afe7a7dce76a47",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "94%"
+    },
+    "android": {
+        "psp": {}
+    },
+    "androidwearos": {
+        "psp": {}
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "closebuttontext": "",
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 1,
+    "focusskin": "s52bbc8058ee4fd799afe7a7dce76a47",
+    "id": "txtAreaMutiLine",
+    "ide_onTextChange": "AS_TextArea_h6ebbd423b19463aa0f1d2d70b7f7261",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "placeholderSkin": "sb33db2dd4384fd895a6e1db4fdf598b"
+        }
+    },
+    "iphone": {},
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardstyle": "A",
+    "keyboardtype": "A",
+    "kuid": "e1839e99e46645998281b2b6805b8066",
+    "maxtextlength": 2000,
+    "mode": "A",
+    "name": "kony.ui.TextArea2",
+    "numberofvisiblelines": 3,
+    "parent": "FlexGroup0d326d0dd038a40",
+    "pf": "userwidgetmodel",
+    "placeholderskin": "sb33db2dd4384fd895a6e1db4fdf598b",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "showoprogressindicator": false,
+    "showprogressindicator": false,
+    "tabrcandroid": {
+        "psp": {}
+    },
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextArea",
+    "zindex": 1
+}

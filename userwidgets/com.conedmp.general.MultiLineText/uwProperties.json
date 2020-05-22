@@ -1,0 +1,166 @@
+{
+    "classname": "MultiLineText",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e16093a9f3254602966077c4459c9b94",
+                    "paramList": [
+                        {
+                            "name": "data"
+                        }
+                    ],
+                    "propertyKey": "setData",
+                    "pw": {
+                        "displayName": "setData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "fb321559912544509771209fef4aab9a",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "e0ca6ce057f84d4f807b6883087529c2",
+                    "paramList": [],
+                    "propertyKey": "getData",
+                    "pw": {
+                        "displayName": "getData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "fb321559912544509771209fef4aab9a",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "a3583b447e5f457eb9745474f99d35ba",
+                    "paramList": [],
+                    "propertyKey": "setText",
+                    "pw": {
+                        "displayName": "setText",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "fb321559912544509771209fef4aab9a",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "ebcc282b716c4cda9e6874b310e5b27e",
+                    "paramList": [],
+                    "propertyKey": "showError",
+                    "pw": {
+                        "displayName": "showError",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "fb321559912544509771209fef4aab9a",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "efff4aea84ea4ba2b4c19c9309a98da9",
+                    "paramList": [],
+                    "propertyKey": "hideError",
+                    "pw": {
+                        "displayName": "hideError",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "fb321559912544509771209fef4aab9a",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "eb89283379874bdda44cd63d952a463b",
+                    "paramList": [],
+                    "propertyKey": "setOnChangeTextCallback",
+                    "pw": {
+                        "displayName": "setOnChangeTextCallback",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "fb321559912544509771209fef4aab9a",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a1838424c1bd4429a73d800377c7a2e7",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "lbltext",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "labelText",
+                        "srcWidget": "lblMultiLineText",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "a58a58f5e7824a5e8442e0ffa0c7b860"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a646da5dbedb499ead832ea1de0e4605",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "TextAreaText",
+                        "srcWidget": "txtAreaMutiLine",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textarea",
+                        "wType": "TextArea"
+                    },
+                    "srcWgtKUID": "e1839e99e46645998281b2b6805b8066"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d0ca91f1374f411c87a1fc81477bef69",
+                    "originalPropertyKey": "placeholder",
+                    "propertyIndex": 3,
+                    "propertyKey": "placeholder",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "TextAreaPlaceholder",
+                        "srcWidget": "txtAreaMutiLine",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextArea"
+                    },
+                    "srcWgtKUID": "e1839e99e46645998281b2b6805b8066"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.conedmp.general",
+    "version": "1.0.0"
+}
